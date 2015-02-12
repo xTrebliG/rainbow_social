@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700,400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="animations.css">
+	<meta charset="UTF-8">
+	<title>Rainbow Social!</title>
+</head>
+<body>
+	<nav>
+		<div class="navBar">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Friends</a></li>
+				<li><a href="">Messages</a></li>
+			
+			</ul>
+
+			<div class="logo"><span>R</span></div>
+		</div>
+		
+	</nav>
+<div class="bgImage">
+	<div class="content">
+		<div class="header">
+			<h1><span class="r">R</span><span class="a">a</span><span class="i">i</span><span class="n">n</span><span class="b">b</span><span class="o">o</span><span class="w">w</span> <span class="s">S</span><span class="o2">o</span><span class="c">c</span><span class="i2">i</span><span class="a2">a</span><span class="l">l</span></h1>			
+		</div>
+		<div class="login">
+			<form action="" method="POST">
+
+				<div class="usrName">
+					<label for="username">Username</label>
+					<input type="text" name="username" id="username">
+				</div>
+
+				<div class="usrPass">
+					<label for="password">Password</label>
+					<input type="password" name="password" id="password">
+				</div>
+
+				<div class="usrSubmit">
+					<input type="submit" value="Login">
+				</div>
+
+
+
+			</form>
+		</div>
+
+		<div class="homeDisplay">
+			<img class="img1"src="images/rainbowface.gif" alt="">
+			<p>Ah yes! Rainbow Social, the newest of new! We are the most colorful, most exciting social networking platform on the webz! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada est a odio sodales, non maximus eros vestibulum. Nullam luctus posuere pretium. Aenean at rutrum mauris. Sed id lacus leo. Sed sit amet pellentesque nulla, ac vulputate velit. Vivamus in lacus est. Vestibulum vehicula semper nisl at bibendum. Aliquam ac scelerisque tortor, non maximus orci.
+
+
+			Nunc rhoncus maximus elit, ac gravida magna interdum in. Etiam non sagittis massa. Integer maximus justo et purus pharetra, sit amet bibendum neque vestibulum. Etiam malesuada iaculis elit ut viverra. Morbi non dignissim justo, a fermentum tortor. Nulla nec porttitor ex. Curabitur luctus orci ut efficitur feugiat. Fusce iaculis eros faucibus lectus condimentum, vel ultricies tortor volutpat. Praesent vel accumsan justo, ut eleifend est. Suspendisse eu semper diam. Proin varius enim id mauris accumsan dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla sed imperdiet nibh. Cras sit amet tortor venenatis, mollis lacus vitae, ultricies ligula.
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque malesuada est a odio sodales, non maximus eros vestibulum. Nullam luctus posuere pretium. Aenean at rutrum mauris. Sed id lacus leo. Sed sit amet pellentesque nulla, ac vulputate velit. Vivamus in lacus est. Vestibulum vehicula semper nisl at bibendum. Aliquam ac scelerisque tortor, non maximus orci.<img  class="img2" src="images/rainbow.gif" alt="">
+
+			In eleifend laoreet urna, faucibus vestibulum lacus aliquam non. Aenean blandit suscipit bibendum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras fermentum, sem sed aliquam vestibulum, erat nisl aliquet orci, egestas facilisis mauris ipsum eget odio. Maecenas blandit gravida consectetur. Suspendisse laoreet ultrices eros in porta. Cras ut orci ac nulla ultricies accumsan et ac elit. Nam laoreet felis nec leo porta dictum. Nunc consequat est sit amet lacinia accumsan.Nam laoreet felis nec leo porta dictum. Nunc consequat est sit amet lacinia accumsan.Nam laoreet felis nec leo porta dictum. Nunc consequat est sit amet lacinia accumsan.Nunc consequat est sit amet lacinia.
+
+			Nunc rhoncus maximus elit, ac gravida magna interdum in. Etiam non sagittis massa. Integer maximus justo et purus pharetra, sit amet bibendum neque vestibulum. Etiam malesuada iaculis elit ut viverra. Morbi non dignissim justo, a fermentum tortor. Nulla nec porttitor ex. Curabitur luctus orci ut efficitur feugiat.</p>	
+
+
+		</div>
+
+		<div class="heresCat">
+			<div class="tossing">
+
+			</div>
+			</div>
+
+		</div>
+		
+	</div>
+</div>
+	<footer>
+		<div class="footer">
+			
+		</div>
+		
+	</footer>
+<script>
+	$(window).scroll(function() {
+		$('#tossing').each(function(){
+		var imagePos = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (imagePos < topOfWindow+100) {
+				$(this).addClass("tossing");
+			}
+		});
+	});
+</script>
+</body>
+</html>

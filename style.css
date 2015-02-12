@@ -1,0 +1,185 @@
+/*body {
+	background-color: yellow;
+}*/
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	padding-top: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+/*NAVBAR*/
+
+.navBar {
+	width: 100%;
+	height: 79px;
+	border: 2px solid black;
+	position: fixed;
+	margin-left: -10px;
+	margin-top: -13px;
+	background-color: purple;
+	z-index: 1;
+
+}
+
+.navBar li {
+	display: inline-block;
+	font-size: 2em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navBar a{
+	color: white;
+	text-shadow: 0 0 10px black;
+}
+
+.navBar a:link{
+	text-decoration: none;
+}
+
+.navBar a:hover{
+	text-shadow: 5px 5px 5px #000;
+}
+
+
+
+
+.logo {
+	height: 65px;
+	width: 65px;
+
+	border: 1px solid black;
+	margin-top: -63px;
+	float:right;
+	background-image: url('images/rLogo.jpg');
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.logo > span {
+	font-size: 50px;
+	margin-left: 25%;
+	color: white;
+	text-shadow: 0 0 5px black;
+
+
+}
+
+/*HEADER*/
+
+.header {
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+	border-bottom: 1px solid black;
+	margin-bottom: 20px;
+	font-size: 3em;
+}
+
+.header h1 {
+	margin-bottom: -15px;
+}
+
+/*LOGIN FORM*/
+
+.login {
+	border: 1px solid black;
+	width: 250px;
+	height: 260px;
+	text-align: center;
+	float: right;
+	background-image: url('images/rainbowback.jpg');
+
+}
+
+.usrName {
+	margin-top: 25%;
+}
+
+/*HomeDisplay*/
+
+.homeDisplay {
+	height: 550px;
+	width: 730px;
+	border: 1px solid black;
+	float: left;
+	background-image: url('images/rainbowback.jpg');
+	background-size: 120%;
+	padding: 5px;
+
+}
+
+.img1{
+	float: left;
+	margin-right: 5px;
+
+}
+
+.img2 {
+	float: right;
+}
+
+.homeDisplay p {
+	
+}
+/*RIGHT CAT DISPLAY*/
+
+.heresCat {
+	border: 1px solid black;
+	height: 278px;
+	width: 250px;
+	float:right;
+	margin-top: 20px;
+	margin-bottom: 100px;
+	background-image: url('images/rainbowback.jpg');
+}
+
+.tossing{
+	height:278px;
+	background-image: url('images/nyan1.png');
+
+}
+/*FOOTER*/
+
+.footer {
+	clear: both;
+	border: 1px solid black;
+	width: 100%;
+	height: 50px;
+	bottom: 0;
+	margin-left: -9px;
+	position: fixed;
+	background-color: purple;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
